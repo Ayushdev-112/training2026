@@ -5,6 +5,8 @@ def msg():
     global y
     y=6666
     print("Local x=",x)
+    a=globals()['x']
+    print("Gloabl Access Local=",a)
 
 msg()
 print("X=",x)
